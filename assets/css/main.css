@@ -2,6 +2,7 @@
 body{
 
   margin: 0px;
+ font-family: "Inter", sans-serif;
 }
 
 .nav-links {
@@ -47,12 +48,18 @@ font-family: "Inter", sans-serif;
 }
 .btn .link{
   border-radius: 5px;
-  cursor: pointer;
   color: white;
   border: none;
   background-color: #034BFF;
   padding: 10px 20px;
 }
+ button {
+   border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #034BFF;
+  padding: 10px 20px;
+ }
 
 
 .ctn{
@@ -102,12 +109,9 @@ font-family: "Inter", sans-serif;
 .contanire  .nav-links{
     gap: 30px;
 }
-.logo {
-   font-weight: 800;
-   font-size: 20px;
-   color: black;
 
-}
+
+
 #active {
     color: #034BFF;
     text-decoration: underline #034BFF;
@@ -121,21 +125,130 @@ font-family: "Inter", sans-serif;
 }
 
 
-.ctn{
+.hero-section{
   
   background-color: #08111D;
   display: flex;
   justify-content: space-between;
+  gap: 0px;
+  
+}
 
+.sec1 {
+color: white;
+margin-left: 80px;
+gap: 0px;
+
+}
+.sec1 h1{
+  font-size: 90px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+.sec1 h1 span{
+  color: #034BFF;
+  margin-top: 0px;
+  font-weight: bold;
+  
+}
+.sec1 h1 span span{
+  color :#c7f64a;
+  margin-top: 0px;
+  padding-left: 50px;
  
  
 }
 
-.photo{
-   width: 589px;
-  height: 461px;
+.sec1 h2{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   
+}
+.statistique{
+  display: flex;
+  justify-content: space-around;
+ margin-top: 25px;
+
+}
+#btn-active{
   border-radius: 10px;
-  overflow: hidden;
+  color: white;
+  border: 1px solid blue;
+  background-color: #08111D;
+  padding: 10px 20px;
+}
+.st{
+  display: flex;
+ 
+}
+.tag{
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  gap: 0px;
+}
+.itm{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+ .par{
+  margin-left: 50px;
+  font-size: 20px;
+ }
+ .item1{
+  font-weight: 800;
+  font-style: normal;
+  font-size: 26px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+ }
+ .item2{
+  gap: 0px;
+  margin-top: 0px;
+  color: #47526A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;;
+ }
+ .presentation-campus{
+  background-color: #F4F7FC;
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+ }
+.section1{
+  padding-top: 20px;
+  margin-left: 55px;
+}
+.p1{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  color: #034BFF;
+  margin-bottom: 0px;
+
+}
+.h2{
+  color:  #0A1222;
+  font-weight: 800;
+  font-size: 33px;
+ 
+
+}
+.section1 .btn{
+   border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #034BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.parcours{
+  background-color:  #08111D;
   
 
 }
