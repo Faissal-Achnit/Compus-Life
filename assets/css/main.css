@@ -1,0 +1,141 @@
+
+body{
+
+  margin: 0px;
+}
+
+.nav-links {
+
+display: flex;
+font-family: "Inter", sans-serif;
+
+ 
+}
+.contanire{
+
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.contanire .nav-links a{
+  text-decoration: none;
+  color: #0A1222;
+  
+}
+.contanire .nav-links li{
+  list-style: none;
+  
+}
+
+.contanire  .nav-links{
+    gap: 30px;
+}
+.contanire .logo {
+ font-size: 30px;
+ font-weight: 800;
+
+}
+#active {
+    color: #034BFF;
+    text-decoration: underline #034BFF;
+}
+
+.link{
+   text-decoration: none;
+   color: white;
+   background-color: black;
+}
+.btn .link{
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #034BFF;
+  padding: 10px 20px;
+}
+
+
+.ctn{
+  margin-bottom: 0px;
+  background-color: #08111D;
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+
+
+ .navigation {
+  margin: 0px;
+
+  padding: 3px;
+
+}
+body{
+
+  margin: 0px;
+}
+
+.nav-links {
+
+display: flex;
+font-family: "Inter", sans-serif;
+
+ 
+}
+.contanire{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.contanire .nav-links a{
+  text-decoration: none;
+  color: #0A1222;
+  
+}
+.contanire .nav-links li{
+  list-style: none;
+  
+}
+
+.contanire  .nav-links{
+    gap: 30px;
+}
+.logo {
+   font-weight: 800;
+   font-size: 20px;
+   color: black;
+
+}
+#active {
+    color: #034BFF;
+    text-decoration: underline #034BFF;
+}
+
+.link{
+   text-decoration: none;
+   color: white;
+   background-color: black;
+     display: block
+}
+
+
+.ctn{
+  
+  background-color: #08111D;
+  display: flex;
+  justify-content: space-between;
+
+ 
+ 
+}
+
+.photo{
+   width: 589px;
+  height: 461px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+
+}
