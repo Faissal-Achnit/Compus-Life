@@ -219,6 +219,7 @@ gap: 0px;
   display: flex;
   justify-content: space-between;
    align-items: center;
+   margin-bottom: 35px;
  }
 .section1{
   padding-top: 20px;
@@ -247,8 +248,75 @@ gap: 0px;
   padding: 10px 20px;
   text-decoration: none;
 }
-.parcours{
-  background-color:  #08111D;
-  
+ .campus{
+ 
+  background-color: #0A1222;
+ 
+}
 
+
+.head-compus{
+  color: white;
+  margin-left: 50px;
+  padding-top: 10px;
+  gap: 0px;
+}
+.dispaly{
+  color: white;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+
+
+}
+.dispaly section{
+  align-items: center;
+  justify-items: center;
+}
+ .items1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 80px;
+   height: 80px;
+   background-color: #034BFF;
+   border-radius: 50%;
+}
+.items2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 80px;
+   height: 80px;
+   background-color: #04B886;
+   border-radius: 50%;
+}
+.items3{
+  background-color: #6744FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 80px;
+   height: 80px;
+    border-radius: 50%;
+
+
+}
+.items4{
+  background-color: #C7F64A;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 80px;
+   height: 80px;
+    border-radius: 50%;     
+
+}
+.text{
+  font-size: 13px;
+}
+.b1{
+  font-size: 12px;
+  padding-bottom: 30pxz;
 }
